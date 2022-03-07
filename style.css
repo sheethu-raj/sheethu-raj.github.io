@@ -134,7 +134,7 @@
 
 @media only screen and ( max-width: 375px ){
 
-     .box{
+     .container{
         position: relative;
         background-color: rgb(213, 225, 239);
         margin-right: 50px;
