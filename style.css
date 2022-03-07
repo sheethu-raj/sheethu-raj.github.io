@@ -119,6 +119,24 @@
     .container{
         position: relative;
         background-color: rgb(213, 225, 239);
+        margin-right: 80px;
+        margin-left: 80px;
+        cursor: pointer;
+    }  
+
+    .attribution{
+        position: absolute;
+        top: 700px;
+        margin-left: 200px;
+    }  
+
+}
+
+@media only screen and ( max-width: 375px ){
+
+     .container{
+        position: relative;
+        background-color: rgb(213, 225, 239);
         margin-right: 50px;
         margin-left: 50px;
         cursor: pointer;
@@ -127,7 +145,7 @@
     .attribution{
         position: absolute;
         top: 700px;
-        margin-left: 220px;
+        margin-left: 200px;
     }  
 
 }
