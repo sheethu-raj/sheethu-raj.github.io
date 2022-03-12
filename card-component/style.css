@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+	background-color: rgb(13, 26, 45);
+	position: relative;
+	height: 657px;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .box{
+	border: solid 1px rgb(21, 39, 63);
+	border-radius: 8px 8px 8px 8px;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	width: 280px;
+	box-sizing: border-box;
+	background-color: rgb(21, 39, 63);
+	margin-left: 520px;
+	top: 75px;
+	left: 10px;
+	position: relative;
+}
+
+.box .part-1 img{
+	border-radius: 8px 8px 8px 8px;
+	left: 550px;
+	top: 100px;
+	width: 250px;
+	height: 250px;
+	margin-left: 13px;
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.part-1 .overlay{
+	position: absolute;
+	border-radius: 8px 8px 8px 8px;
+	top: 10px;
+	bottom: 0;
+	left: 14px;
+	right: 0;
+	height: 250px;
+	width: 250px;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: rgb(0, 166, 192);
+}
+
+.part-1:hover .overlay{
+	opacity: 0.5;
+}
+
+.icon{
+  position: absolute;
+  width: 50px !important;
+  height: 50px !important;
+  transform: translate(-930%,-20%) !important;
+}
+
+.box .part-2 h3{
+	color: whitesmoke;
+	margin-top: 10px;
+	padding-left: 13px;
+	font-weight: 500;
+}
+
+.box .part-2 p{
+	color: rgb(90, 113, 143);
+	font-weight: 500;
+	margin-top: 10px;
+	padding-left: 13px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+
+.box .part-3{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.box .part-3 .left{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box .part-3 .left img{
+	margin-left: -20px;
+	margin-right: 5px;
+	padding-left: 10px;
+}
+
+.box .part-3 .left p{
+	color: rgb(0, 255, 248);
+	font-size: 15px;
+}
+
+.box .part-3 .right{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 10px;
+}
+
+.box .part-3 .right img{
+	margin-left: -20px;
+	margin-right: 5px;
+	padding-left: 30px;
+}
+
+.box .part-3 .right p{
+	color: rgb(139, 172, 217);
+	font-size: 15px;
+}
+
+span hr{
+	width: 248px;
+	color: rgb(33, 51, 75);
+	margin-top: 20px;
+	margin-left: 13px;
+	margin-bottom: 15px;
+}
+
+.box .part-4{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.box .part-4 img{
+	width: 40px;
+	height: 40px;
+	border: 1px solid whitesmoke;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.box .part-4 p{
+	font-size: 14px;
+	margin-left: 16px;
+	margin-top: 5px;
+	font-weight: 500;
+	color: rgb(136, 157, 191);
+}
+
+.box .part-4 span{
+	color: rgb(189, 199, 209);
+}
+
+.attribution{
+	margin-top: 130px;
+	margin-left: -20px;
+}
+
+@media only screen and ( max-width: 1050px ){
+
+	.container .box{
+		align-items: center;
+		justify-content: center;
+		margin-left: 340px;
+	}
+}
+
+@media only screen and ( max-width: 768px ){
+
+	.container .box{
+		align-items: center;
+		justify-content: center;
+		margin-left: 230px;
+	}
+}
+
+@media only screen and ( max-width: 667px ){
+
+	.container .box{
+		align-items: center;
+		justify-content: center;
+		margin-left: 130px;
+	}
+}
