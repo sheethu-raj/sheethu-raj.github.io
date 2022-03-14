@@ -10,7 +10,7 @@
 .container{
 	background-color: rgb(13, 26, 45);
 	position: relative;
-	height: 100vh;
+	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
 }
