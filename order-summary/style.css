@@ -11,7 +11,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(images/pattern-background-desktop.svg);
+	background-image: url(pattern-background-desktop.svg);
 	background-position: center;
 	background-size: cover;
 }
