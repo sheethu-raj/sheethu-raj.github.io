@@ -11,9 +11,8 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(pattern-background-desktop.svg);
-	background-position: center;
-	background-size: cover;
+	background: url(images/pattern-background-desktop.svg) no-repeat;
+	background-color: rgb(224, 232, 255);
 }
 
 .box{
