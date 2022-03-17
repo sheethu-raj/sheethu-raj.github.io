@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(185, 75%, 39%);
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.container{
+	max-width: 400px;
+	border-radius: 13px;
+	background-color: white;
+}
+
+.part-1 img{
+	border-radius: 13px 13px 0 0;
+}
+
+.image{
+	margin-left: 120px;
+	margin-top: -50px;
+}
+
+.image img{
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+.part-2{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.part-2 .row{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-left: 12px;
+}
+
+.part-2 .row .name{
+	margin-left: -20px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 8px;
+	color: rgb(50, 51, 63);
+}
+
+.part-2 .row .age{
+	color: rgb(138, 139, 143);
+}
+
+.part-2 .place{
+	margin-top: 15px;
+	color: rgb(133, 133, 134);
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+hr{
+	margin-bottom: 20px;
+	background-color: rgb(238, 238, 238);
+	height: 1px;
+	border: none;
+}
+
+.part-2 .number{
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.part-2 .number .followers{
+	margin-right: 50px;
+	line-height: 22px;
+}
+
+.part-2 .number .followers .first{
+	font-weight: 700;
+	font-size: 18px;
+	color: rgb(50, 51, 63);
+}
+
+.part-2 .number .followers .second{
+	font-size: 12px;
+	color: rgb(133, 133, 134);
+}
+
+.part-2 .number .likes{
+	margin-right: 50px;
+	line-height: 22px;
+}
+
+.part-2 .number .likes .first{
+	font-weight: 700;
+	font-size: 18px;
+	color: rgb(50, 51, 63);
+}
+
+.part-2 .number .likes .second{
+	font-size: 12px;
+	color: rgb(133, 133, 134);
+}
+
+.part-2 .number .photos{
+	line-height: 22px;
+}
+
+.part-2 .number .photos .first{
+	font-weight: 700;
+	font-size: 18px;
+	color: rgb(50, 51, 63);
+}
+
+.part-2 .number .photos .second{
+	font-size: 12px;
+	color: rgb(133, 133, 134);
+}
