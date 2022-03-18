@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Spartan', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto auto;
+	background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: right 60vw bottom 50vh, left 20vw top 20vh;
+}
+
+.container{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+/*----row #1----*/
+
+.row-1{
+	display: inline-flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.row-1 .left{
+	padding-left: 20px;
+	padding-right: 100px;
+	margin-top: 50px;
+}
+
+.text .heading p{
+	font-size: 45px;
+	font-weight: 700;
+	color: rgb(81, 29, 82);
+	margin-bottom: 15px;
+	line-height: 45px;
+	letter-spacing: -2px;
+}
+
+.text .description p{
+	font-size: 15px;
+	color: rgb(183, 178, 183);
+	font-weight: 500;
+	line-height: 25px;
+	margin-bottom: 50px;
+}
+
+.row-1 .right .review{
+	display: inline-grid;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+}
+
+.right .review .box-1{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 400px;
+}
+
+.one{
+	margin-left: -60px;
+	padding: 15px 20px;
+	border-radius: 8px;
+	background-color: rgb(247, 242, 249);
+}
+
+.one .star{
+	margin-right: 25px;
+}
+
+.one .star img{
+	margin-right: 5px;
+}
+
+.one .writing p{
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(81, 29, 82);
+}
+
+.two{
+	margin-left: -30px;
+	padding: 15px 20px;
+	border-radius: 8px;
+	background-color: rgb(247, 242, 249);
+}
+
+.two .star img{
+	margin-right: 5px;
+}
+
+.two .writing p{
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(81, 29, 82);
+}
+
+.three{
+	margin-left: 0px;
+	padding: 15px 20px;
+	border-radius: 8px;
+	background-color: rgb(247, 242, 249);
+}
+
+.three .star img{
+	margin-right: 5px;
+}
+
+.three .writing p{
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(81, 29, 82);
+}
+
+/*----row #2----*/
+
+.row-2{
+	margin-top: 10px;
+}
+
+.row-2 .box-2{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.box-2 .card{
+	background-color: rgb(81, 31, 80);
+	padding: 30px 30px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	margin-right: 30px;
+}
+
+.box-2 .card .upper{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+.card .upper .dp img{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-left: -10px;
+	margin-right: 25px;
+}
+
+.card .upper .details .name{
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+}
+
+.card .upper .details .position{
+	font-size: 15px;
+	font-weight: 500;
+	color: rgb(148, 68, 123);
+}
+
+.card .lower p{
+	color: rgb(212, 186, 213);
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.first{
+	margin-top: -60px;
+}
+
+.second{
+	margin-top: -20px;
+}
+
+.third{
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px){
+
+	body{
+		background-repeat: no-repeat, no-repeat;
+		background-position: right 0vw bottom 180vh, left 0vw top 130vh;
+	}
+
+	.container .row-1{
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
+		justify-content: center;
+		margin-left: -70px;
+	}
+
+	.container .row-1 .left{
+		margin-left: 130px;
+	}
+
+	.left .text{
+		text-align: center;
+		margin: 0 -20px;
+	}
+
+	.text .heading p{
+		font-size: 37px;
+		margin-bottom: 30px;
+	}
+
+	.text .description p{
+		font-size: 13px;
+		margin-left: 10px;
+	}
+
+	.right .review{
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
+		justify-content: center;
+		margin-left: 165px;
+		margin-bottom: 110px;
+	}
+
+	.right .review .box-1{
+		width: 300px;
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
+		justify-content: center;
+		grid-gap: 10px;
+	}
+
+	.box-1 .star{
+		margin-left: 20px;
+	}
+
+	.two, .three{
+		margin-left: -60px;
+	}
+
+	.row-2 .box-2{
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.box-2 .card{
+		width: 300px;
+		margin-left: 25px;
+	}
+
+	.third{
+		margin-top: -18px;
+	}
+}
