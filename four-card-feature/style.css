@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	background-color: rgb(250, 250, 250);
+	align-content: center;
+}
+
+.heading{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.heading .head1{
+	font-size: 25px;
+	font-weight: 200;
+	color: rgb(130, 130, 141);
+}
+
+.heading .head2{
+	font-size: 25px;
+	font-weight: 600;
+	color: rgb(75, 76, 95);
+}
+
+.heading .head3{
+	font-size: 15px;
+	font-weight: 400;
+	color: rgb(208, 208, 208);
+	margin-top: 20px;
+}
+
+.container{
+	margin-top: 40px;
+}
+
+/*----box #1----*/
+
+.container .box1{
+	display: flex;
+	width: 300px;
+	padding: 30px;
+	border-top: 5px solid rgb(222, 103, 103);
+	border-radius: 8px;
+	margin-left: 490px;
+	height: 200px;
+	box-shadow: 0px 4px 10px 4px rgb(222, 229, 239);
+	background-color: white;
+}
+
+.container .box1 .main .title{
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(75, 76, 95);
+}
+
+.container .box1 .main .description{
+	font-size: 15px;
+	font-weight: 200;
+	margin-top: 10px;
+	color: rgb(208, 208, 208);
+}
+
+.container .box1 .main img{
+	margin-left: 210px;
+	margin-top: 50px;
+}
+
+/*----box #2----*/
+
+.container .box2{
+	display: flex;
+	width: 300px;
+	padding: 30px;
+	border-top: 5px solid rgb(79, 177, 176);
+	border-radius: 8px;
+	margin-left: 100px;
+	margin-top: -120px;
+	height: 200px;
+	box-shadow: 0px 4px 10px 4px rgb(222, 229, 239);
+	background-color: white;
+}
+
+.container .box2 .main .title{
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(75, 76, 95);
+}
+
+.container .box2 .main .description{
+	font-size: 15px;
+	font-weight: 200;
+	margin-top: 10px;
+	color: rgb(208, 208, 208);
+}
+
+.container .box2 .main img{
+	margin-left: 210px;
+	margin-top: 50px;
+}
+
+/*----box #3----*/
+
+.container .box3{
+	display: flex;
+	width: 300px;
+	padding: 30px;
+	border-top: 5px solid rgb(82, 134, 183);
+	border-radius: 8px;
+	margin-left: 880px;
+	margin-top: -260px;
+	height: 200px;
+	box-shadow: 0px 4px 10px 4px rgb(222, 229, 239);
+	background-color: white;
+}
+
+.container .box3 .main .title{
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(75, 76, 95);
+}
+
+.container .box3 .main .description{
+	font-size: 15px;
+	font-weight: 200;
+	margin-top: 10px;
+	color: rgb(208, 208, 208);
+}
+
+.container .box3 .main img{
+	margin-left: 210px;
+	margin-top: 50px;
+}
+
+/*----box #4----*/
+
+.container .box4{
+	display: flex;
+	width: 300px;
+	padding: 30px;
+	border-top: 5px solid rgb(251, 183, 0);
+	border-radius: 8px;
+	margin-left: 490px;
+	margin-top: -125px;
+	height: 200px;
+	box-shadow: 0px 4px 10px 4px rgb(222, 229, 239);
+	background-color: white;
+}
+
+.container .box4 .main .title{
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(75, 76, 95);
+}
+
+.container .box4 .main .description{
+	font-size: 15px;
+	font-weight: 200;
+	margin-top: 10px;
+	color: rgb(208, 208, 208);
+}
+
+.container .box4 .main img{
+	margin-left: 210px;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px){
+
+	.heading .head3{
+		display: block;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
+		margin: 20px 100px;
+	}
+
+	.container{
+		display: block;
+		position: relative;
+	}
+
+	.box1{
+		position: absolute;
+		top: 0px;
+		left: -430px;
+	}
+
+	.box2{
+		position: absolute;
+		top: 420px;
+		left: -40px;
+	}
+
+	.box3{
+		position: absolute;
+		left: -820px;
+		top: 860px;
+		
+	}
+
+	.box4{
+		position: absolute;
+		top: 1030px;
+		left: -425px;
+	}
+}
